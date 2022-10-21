@@ -78,9 +78,9 @@ private static final int AREA_COLUMNS = 40;
 	{
 		public void actionPerformed(ActionEvent event)
 		{
-															//when a button with a number is clicked, that number will show in the text area. if have an operator (+,-,*,/)
-															//the status of operator will be other than zero so the number will be added to the num2 string 
-															//otherwise it is still part of number one and it will be added to num1 string.
+									//when a button with a number is clicked, that number will show in the text area. if have an operator (+,-,*,/)
+									//the status of operator will be other than zero so the number will be added to the num2 string 
+									//otherwise it is still part of number one and it will be added to num1 string
 			if(event.getSource()==button0) {
 				resultarea.setText(resultarea.getText()+"0");
 				if(operator>0)
