@@ -432,7 +432,7 @@ private static final int AREA_COLUMNS = 40;
 		
 		resultarea.append("=\n" + result + "\n");
 		
-		num1="";												//after the calculation is done, we set every thing to "" and 0 to begin a new calculation.
+		num1="";	//after the calculation is done, we set every thing to "" and 0 to begin a new calculation
 		num2="";
 		operator=0;
 		results = "" + result;
